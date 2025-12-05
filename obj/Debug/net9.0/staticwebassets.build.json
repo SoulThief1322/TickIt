@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jwRn8YJC/PNYZedRI4455qVduhWx4HxyenhSdg5j4zQ=",
+  "Hash": "nBTBKkfZy/paga15JYkEFdUlpyDUQOfAvpSQ6+H3SGo=",
   "Source": "TickIt",
   "BasePath": "_content/TickIt",
   "Mode": "Default",
@@ -2159,12 +2159,12 @@
       "OriginalItemSpec": "C:\\Users\\gajok\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\9.0.2\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\gajok\\TickIt\\obj\\Debug\\net9.0\\compressed\\czydapzo8e-9g0v9bnymk.gz",
+      "Identity": "C:\\Users\\gajok\\TickIt\\obj\\Debug\\net9.0\\compressed\\czydapzo8e-mcauwxzlk2.gz",
       "SourceId": "TickIt",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\gajok\\TickIt\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/TickIt",
-      "RelativePath": "TickIt#[.{fingerprint=9g0v9bnymk}]?.styles.css.gz",
+      "RelativePath": "TickIt#[.{fingerprint=mcauwxzlk2}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -2173,8 +2173,8 @@
       "RelatedAsset": "C:\\Users\\gajok\\TickIt\\obj\\Debug\\net9.0\\scopedcss\\bundle\\TickIt.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "1ui4e5dnvd",
-      "Integrity": "WcpNmeKtG5pnbOKKmfl3aHsa4Xa5hmJBf8xp/+JE/8o=",
+      "Fingerprint": "8dgb2kluax",
+      "Integrity": "nAl28UErza0/AwMltFKTawDog8lfBz0RFXU3AJJWUqM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gajok\\TickIt\\obj\\Debug\\net9.0\\scopedcss\\bundle\\TickIt.styles.css"
@@ -3104,12 +3104,12 @@
       "OriginalItemSpec": "C:\\Users\\gajok\\TickIt\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\gajok\\TickIt\\obj\\Debug\\net9.0\\compressed\\onx06nn0g6-9g0v9bnymk.gz",
+      "Identity": "C:\\Users\\gajok\\TickIt\\obj\\Debug\\net9.0\\compressed\\onx06nn0g6-mcauwxzlk2.gz",
       "SourceId": "TickIt",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\gajok\\TickIt\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/TickIt",
-      "RelativePath": "TickIt#[.{fingerprint=9g0v9bnymk}]!.bundle.scp.css.gz",
+      "RelativePath": "TickIt#[.{fingerprint=mcauwxzlk2}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -3118,8 +3118,8 @@
       "RelatedAsset": "C:\\Users\\gajok\\TickIt\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\TickIt.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "1ui4e5dnvd",
-      "Integrity": "WcpNmeKtG5pnbOKKmfl3aHsa4Xa5hmJBf8xp/+JE/8o=",
+      "Fingerprint": "8dgb2kluax",
+      "Integrity": "nAl28UErza0/AwMltFKTawDog8lfBz0RFXU3AJJWUqM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gajok\\TickIt\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\TickIt.bundle.scp.css"
@@ -4000,8 +4000,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "9g0v9bnymk",
-      "Integrity": "90aZWR01OCLF+43CbKvNQExgkfyANJ+3nSTA6HK3wIs=",
+      "Fingerprint": "mcauwxzlk2",
+      "Integrity": "GryQTH/p2qKDv2mDTDXnbEfWpfRykRXTw0+F98iBi+c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gajok\\TickIt\\obj\\Debug\\net9.0\\scopedcss\\bundle\\TickIt.styles.css"
@@ -4021,8 +4021,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "9g0v9bnymk",
-      "Integrity": "90aZWR01OCLF+43CbKvNQExgkfyANJ+3nSTA6HK3wIs=",
+      "Fingerprint": "mcauwxzlk2",
+      "Integrity": "GryQTH/p2qKDv2mDTDXnbEfWpfRykRXTw0+F98iBi+c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gajok\\TickIt\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\TickIt.bundle.scp.css"
@@ -34773,13 +34773,13 @@
       ]
     },
     {
-      "Route": "TickIt.9g0v9bnymk.bundle.scp.css",
-      "AssetFile": "C:\\Users\\gajok\\TickIt\\obj\\Debug\\net9.0\\compressed\\onx06nn0g6-9g0v9bnymk.gz",
+      "Route": "TickIt.bundle.scp.css",
+      "AssetFile": "C:\\Users\\gajok\\TickIt\\obj\\Debug\\net9.0\\compressed\\onx06nn0g6-mcauwxzlk2.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001862197393"
+          "Quality": "0.001158748552"
         }
       ],
       "ResponseHeaders": [
@@ -34789,19 +34789,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "536"
+          "Value": "862"
         },
         {
           "Name": "ETag",
-          "Value": "\"WcpNmeKtG5pnbOKKmfl3aHsa4Xa5hmJBf8xp/+JE/8o=\""
+          "Value": "\"nAl28UErza0/AwMltFKTawDog8lfBz0RFXU3AJJWUqM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 05 Dec 2025 08:08:59 GMT"
+          "Value": "Fri, 05 Dec 2025 09:31:29 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -34817,26 +34817,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"90aZWR01OCLF+43CbKvNQExgkfyANJ+3nSTA6HK3wIs=\""
+          "Value": "W/\"GryQTH/p2qKDv2mDTDXnbEfWpfRykRXTw0+F98iBi+c=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "9g0v9bnymk"
-        },
-        {
-          "Name": "label",
-          "Value": "TickIt.bundle.scp.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-90aZWR01OCLF+43CbKvNQExgkfyANJ+3nSTA6HK3wIs="
+          "Value": "sha256-GryQTH/p2qKDv2mDTDXnbEfWpfRykRXTw0+F98iBi+c="
         }
       ]
     },
     {
-      "Route": "TickIt.9g0v9bnymk.bundle.scp.css",
+      "Route": "TickIt.bundle.scp.css",
       "AssetFile": "C:\\Users\\gajok\\TickIt\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\TickIt.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -34846,7 +34838,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1124"
+          "Value": "2234"
         },
         {
           "Name": "Content-Type",
@@ -34854,11 +34846,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"90aZWR01OCLF+43CbKvNQExgkfyANJ+3nSTA6HK3wIs=\""
+          "Value": "\"GryQTH/p2qKDv2mDTDXnbEfWpfRykRXTw0+F98iBi+c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 05 Dec 2025 08:08:59 GMT"
+          "Value": "Fri, 05 Dec 2025 09:31:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GryQTH/p2qKDv2mDTDXnbEfWpfRykRXTw0+F98iBi+c="
+        }
+      ]
+    },
+    {
+      "Route": "TickIt.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\gajok\\TickIt\\obj\\Debug\\net9.0\\compressed\\onx06nn0g6-mcauwxzlk2.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "862"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nAl28UErza0/AwMltFKTawDog8lfBz0RFXU3AJJWUqM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 05 Dec 2025 09:31:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nAl28UErza0/AwMltFKTawDog8lfBz0RFXU3AJJWUqM="
+        }
+      ]
+    },
+    {
+      "Route": "TickIt.mcauwxzlk2.bundle.scp.css",
+      "AssetFile": "C:\\Users\\gajok\\TickIt\\obj\\Debug\\net9.0\\compressed\\onx06nn0g6-mcauwxzlk2.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001158748552"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "862"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nAl28UErza0/AwMltFKTawDog8lfBz0RFXU3AJJWUqM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 05 Dec 2025 09:31:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"GryQTH/p2qKDv2mDTDXnbEfWpfRykRXTw0+F98iBi+c=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mcauwxzlk2"
+        },
+        {
+          "Name": "label",
+          "Value": "TickIt.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GryQTH/p2qKDv2mDTDXnbEfWpfRykRXTw0+F98iBi+c="
+        }
+      ]
+    },
+    {
+      "Route": "TickIt.mcauwxzlk2.bundle.scp.css",
+      "AssetFile": "C:\\Users\\gajok\\TickIt\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\TickIt.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2234"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GryQTH/p2qKDv2mDTDXnbEfWpfRykRXTw0+F98iBi+c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 05 Dec 2025 09:31:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -34868,7 +35005,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9g0v9bnymk"
+          "Value": "mcauwxzlk2"
         },
         {
           "Name": "label",
@@ -34876,13 +35013,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-90aZWR01OCLF+43CbKvNQExgkfyANJ+3nSTA6HK3wIs="
+          "Value": "sha256-GryQTH/p2qKDv2mDTDXnbEfWpfRykRXTw0+F98iBi+c="
         }
       ]
     },
     {
-      "Route": "TickIt.9g0v9bnymk.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\gajok\\TickIt\\obj\\Debug\\net9.0\\compressed\\onx06nn0g6-9g0v9bnymk.gz",
+      "Route": "TickIt.mcauwxzlk2.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\gajok\\TickIt\\obj\\Debug\\net9.0\\compressed\\onx06nn0g6-mcauwxzlk2.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -34891,7 +35028,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "536"
+          "Value": "862"
         },
         {
           "Name": "Content-Type",
@@ -34899,11 +35036,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WcpNmeKtG5pnbOKKmfl3aHsa4Xa5hmJBf8xp/+JE/8o=\""
+          "Value": "\"nAl28UErza0/AwMltFKTawDog8lfBz0RFXU3AJJWUqM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 05 Dec 2025 08:08:59 GMT"
+          "Value": "Fri, 05 Dec 2025 09:31:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -34921,7 +35058,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9g0v9bnymk"
+          "Value": "mcauwxzlk2"
         },
         {
           "Name": "label",
@@ -34929,18 +35066,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-WcpNmeKtG5pnbOKKmfl3aHsa4Xa5hmJBf8xp/+JE/8o="
+          "Value": "sha256-nAl28UErza0/AwMltFKTawDog8lfBz0RFXU3AJJWUqM="
         }
       ]
     },
     {
-      "Route": "TickIt.9g0v9bnymk.styles.css",
-      "AssetFile": "C:\\Users\\gajok\\TickIt\\obj\\Debug\\net9.0\\compressed\\czydapzo8e-9g0v9bnymk.gz",
+      "Route": "TickIt.mcauwxzlk2.styles.css",
+      "AssetFile": "C:\\Users\\gajok\\TickIt\\obj\\Debug\\net9.0\\compressed\\czydapzo8e-mcauwxzlk2.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001862197393"
+          "Quality": "0.001158748552"
         }
       ],
       "ResponseHeaders": [
@@ -34950,15 +35087,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "536"
+          "Value": "862"
         },
         {
           "Name": "ETag",
-          "Value": "\"WcpNmeKtG5pnbOKKmfl3aHsa4Xa5hmJBf8xp/+JE/8o=\""
+          "Value": "\"nAl28UErza0/AwMltFKTawDog8lfBz0RFXU3AJJWUqM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 05 Dec 2025 08:08:59 GMT"
+          "Value": "Fri, 05 Dec 2025 09:31:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -34978,13 +35115,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"90aZWR01OCLF+43CbKvNQExgkfyANJ+3nSTA6HK3wIs=\""
+          "Value": "W/\"GryQTH/p2qKDv2mDTDXnbEfWpfRykRXTw0+F98iBi+c=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9g0v9bnymk"
+          "Value": "mcauwxzlk2"
         },
         {
           "Name": "label",
@@ -34992,12 +35129,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-90aZWR01OCLF+43CbKvNQExgkfyANJ+3nSTA6HK3wIs="
+          "Value": "sha256-GryQTH/p2qKDv2mDTDXnbEfWpfRykRXTw0+F98iBi+c="
         }
       ]
     },
     {
-      "Route": "TickIt.9g0v9bnymk.styles.css",
+      "Route": "TickIt.mcauwxzlk2.styles.css",
       "AssetFile": "C:\\Users\\gajok\\TickIt\\obj\\Debug\\net9.0\\scopedcss\\bundle\\TickIt.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -35007,7 +35144,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1124"
+          "Value": "2234"
         },
         {
           "Name": "Content-Type",
@@ -35015,11 +35152,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"90aZWR01OCLF+43CbKvNQExgkfyANJ+3nSTA6HK3wIs=\""
+          "Value": "\"GryQTH/p2qKDv2mDTDXnbEfWpfRykRXTw0+F98iBi+c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 05 Dec 2025 08:08:59 GMT"
+          "Value": "Fri, 05 Dec 2025 09:31:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35029,7 +35166,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9g0v9bnymk"
+          "Value": "mcauwxzlk2"
         },
         {
           "Name": "label",
@@ -35037,13 +35174,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-90aZWR01OCLF+43CbKvNQExgkfyANJ+3nSTA6HK3wIs="
+          "Value": "sha256-GryQTH/p2qKDv2mDTDXnbEfWpfRykRXTw0+F98iBi+c="
         }
       ]
     },
     {
-      "Route": "TickIt.9g0v9bnymk.styles.css.gz",
-      "AssetFile": "C:\\Users\\gajok\\TickIt\\obj\\Debug\\net9.0\\compressed\\czydapzo8e-9g0v9bnymk.gz",
+      "Route": "TickIt.mcauwxzlk2.styles.css.gz",
+      "AssetFile": "C:\\Users\\gajok\\TickIt\\obj\\Debug\\net9.0\\compressed\\czydapzo8e-mcauwxzlk2.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -35052,7 +35189,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "536"
+          "Value": "862"
         },
         {
           "Name": "Content-Type",
@@ -35060,11 +35197,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WcpNmeKtG5pnbOKKmfl3aHsa4Xa5hmJBf8xp/+JE/8o=\""
+          "Value": "\"nAl28UErza0/AwMltFKTawDog8lfBz0RFXU3AJJWUqM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 05 Dec 2025 08:08:59 GMT"
+          "Value": "Fri, 05 Dec 2025 09:31:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35082,7 +35219,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "9g0v9bnymk"
+          "Value": "mcauwxzlk2"
         },
         {
           "Name": "label",
@@ -35090,155 +35227,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-WcpNmeKtG5pnbOKKmfl3aHsa4Xa5hmJBf8xp/+JE/8o="
-        }
-      ]
-    },
-    {
-      "Route": "TickIt.bundle.scp.css",
-      "AssetFile": "C:\\Users\\gajok\\TickIt\\obj\\Debug\\net9.0\\compressed\\onx06nn0g6-9g0v9bnymk.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001862197393"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "536"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WcpNmeKtG5pnbOKKmfl3aHsa4Xa5hmJBf8xp/+JE/8o=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 05 Dec 2025 08:08:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"90aZWR01OCLF+43CbKvNQExgkfyANJ+3nSTA6HK3wIs=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-90aZWR01OCLF+43CbKvNQExgkfyANJ+3nSTA6HK3wIs="
-        }
-      ]
-    },
-    {
-      "Route": "TickIt.bundle.scp.css",
-      "AssetFile": "C:\\Users\\gajok\\TickIt\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\TickIt.bundle.scp.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1124"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"90aZWR01OCLF+43CbKvNQExgkfyANJ+3nSTA6HK3wIs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 05 Dec 2025 08:08:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-90aZWR01OCLF+43CbKvNQExgkfyANJ+3nSTA6HK3wIs="
-        }
-      ]
-    },
-    {
-      "Route": "TickIt.bundle.scp.css.gz",
-      "AssetFile": "C:\\Users\\gajok\\TickIt\\obj\\Debug\\net9.0\\compressed\\onx06nn0g6-9g0v9bnymk.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "536"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"WcpNmeKtG5pnbOKKmfl3aHsa4Xa5hmJBf8xp/+JE/8o=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 05 Dec 2025 08:08:59 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-WcpNmeKtG5pnbOKKmfl3aHsa4Xa5hmJBf8xp/+JE/8o="
+          "Value": "sha256-nAl28UErza0/AwMltFKTawDog8lfBz0RFXU3AJJWUqM="
         }
       ]
     },
     {
       "Route": "TickIt.styles.css",
-      "AssetFile": "C:\\Users\\gajok\\TickIt\\obj\\Debug\\net9.0\\compressed\\czydapzo8e-9g0v9bnymk.gz",
+      "AssetFile": "C:\\Users\\gajok\\TickIt\\obj\\Debug\\net9.0\\compressed\\czydapzo8e-mcauwxzlk2.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001862197393"
+          "Quality": "0.001158748552"
         }
       ],
       "ResponseHeaders": [
@@ -35248,15 +35248,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "536"
+          "Value": "862"
         },
         {
           "Name": "ETag",
-          "Value": "\"WcpNmeKtG5pnbOKKmfl3aHsa4Xa5hmJBf8xp/+JE/8o=\""
+          "Value": "\"nAl28UErza0/AwMltFKTawDog8lfBz0RFXU3AJJWUqM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 05 Dec 2025 08:08:59 GMT"
+          "Value": "Fri, 05 Dec 2025 09:31:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35276,13 +35276,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"90aZWR01OCLF+43CbKvNQExgkfyANJ+3nSTA6HK3wIs=\""
+          "Value": "W/\"GryQTH/p2qKDv2mDTDXnbEfWpfRykRXTw0+F98iBi+c=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-90aZWR01OCLF+43CbKvNQExgkfyANJ+3nSTA6HK3wIs="
+          "Value": "sha256-GryQTH/p2qKDv2mDTDXnbEfWpfRykRXTw0+F98iBi+c="
         }
       ]
     },
@@ -35297,7 +35297,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1124"
+          "Value": "2234"
         },
         {
           "Name": "Content-Type",
@@ -35305,11 +35305,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"90aZWR01OCLF+43CbKvNQExgkfyANJ+3nSTA6HK3wIs=\""
+          "Value": "\"GryQTH/p2qKDv2mDTDXnbEfWpfRykRXTw0+F98iBi+c=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 05 Dec 2025 08:08:59 GMT"
+          "Value": "Fri, 05 Dec 2025 09:31:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35319,13 +35319,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-90aZWR01OCLF+43CbKvNQExgkfyANJ+3nSTA6HK3wIs="
+          "Value": "sha256-GryQTH/p2qKDv2mDTDXnbEfWpfRykRXTw0+F98iBi+c="
         }
       ]
     },
     {
       "Route": "TickIt.styles.css.gz",
-      "AssetFile": "C:\\Users\\gajok\\TickIt\\obj\\Debug\\net9.0\\compressed\\czydapzo8e-9g0v9bnymk.gz",
+      "AssetFile": "C:\\Users\\gajok\\TickIt\\obj\\Debug\\net9.0\\compressed\\czydapzo8e-mcauwxzlk2.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -35334,7 +35334,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "536"
+          "Value": "862"
         },
         {
           "Name": "Content-Type",
@@ -35342,11 +35342,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WcpNmeKtG5pnbOKKmfl3aHsa4Xa5hmJBf8xp/+JE/8o=\""
+          "Value": "\"nAl28UErza0/AwMltFKTawDog8lfBz0RFXU3AJJWUqM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 05 Dec 2025 08:08:59 GMT"
+          "Value": "Fri, 05 Dec 2025 09:31:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -35364,7 +35364,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-WcpNmeKtG5pnbOKKmfl3aHsa4Xa5hmJBf8xp/+JE/8o="
+          "Value": "sha256-nAl28UErza0/AwMltFKTawDog8lfBz0RFXU3AJJWUqM="
         }
       ]
     }

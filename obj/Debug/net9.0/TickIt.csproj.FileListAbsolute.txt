@@ -260,8 +260,6 @@ C:\Users\gajok\TickIt\obj\Debug\net9.0\compressed\7jqbq75fm7-2z0ns9nrw6.gz
 C:\Users\gajok\TickIt\obj\Debug\net9.0\compressed\zmsgx577ms-muycvpuwrr.gz
 C:\Users\gajok\TickIt\obj\Debug\net9.0\compressed\9pirfzeqz0-87fc7y1x7t.gz
 C:\Users\gajok\TickIt\obj\Debug\net9.0\compressed\1ip8t5lqt0-mlv21k5csn.gz
-C:\Users\gajok\TickIt\obj\Debug\net9.0\compressed\czydapzo8e-9g0v9bnymk.gz
-C:\Users\gajok\TickIt\obj\Debug\net9.0\compressed\onx06nn0g6-9g0v9bnymk.gz
 C:\Users\gajok\TickIt\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\gajok\TickIt\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\gajok\TickIt\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -323,3 +321,5 @@ C:\Users\gajok\TickIt\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Drawing.Co
 C:\Users\gajok\TickIt\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 C:\Users\gajok\TickIt\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\gajok\TickIt\bin\Debug\net9.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\gajok\TickIt\obj\Debug\net9.0\compressed\czydapzo8e-mcauwxzlk2.gz
+C:\Users\gajok\TickIt\obj\Debug\net9.0\compressed\onx06nn0g6-mcauwxzlk2.gz
