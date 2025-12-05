@@ -10,6 +10,7 @@ public class ApplicationDbContext : IdentityDbContext
     {
     }
     public DbSet<TaskItem> TaskItems { get; set; } = null!;
+    public DbSet<Category> Categories { get; set; } = null!;
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
