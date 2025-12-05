@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Data.Models;
+using TickIt.Data.Models;
 namespace TickIt.Data;
 
 public class ApplicationDbContext : IdentityDbContext

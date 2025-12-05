@@ -1,4 +1,4 @@
-namespace Data.Models
+namespace TickIt.Data.Models
 {
     public class Category
     {
