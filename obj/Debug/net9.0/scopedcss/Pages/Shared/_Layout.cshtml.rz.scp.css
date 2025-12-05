@@ -39,10 +39,64 @@ button.accept-policy[b-u7grrgmggi] {
   line-height: inherit;
 }
 
-.footer[b-u7grrgmggi] {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px;
+.site-footer[b-u7grrgmggi] {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px 0;
+    margin-top: 50px;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+}
+
+/* Make page take full height */
+html[b-u7grrgmggi], body[b-u7grrgmggi] {
+    height: 100%;
+    margin: 0;
+}
+
+/* Flex layout for wrapper */
+.page-wrapper[b-u7grrgmggi] {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Content grows to fill available space */
+.content[b-u7grrgmggi] {
+    flex: 1;
+}
+
+/* Footer styles */
+.site-footer[b-u7grrgmggi] {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px 0;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+}
+
+.footer-content[b-u7grrgmggi] {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.footer-left p[b-u7grrgmggi] {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.footer-right a[b-u7grrgmggi] {
+    color: #ecf0f1;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 0.9rem;
+    transition: color 0.2s ease;
+}
+
+.footer-right a:hover[b-u7grrgmggi] {
+    color: #3498db;
 }
