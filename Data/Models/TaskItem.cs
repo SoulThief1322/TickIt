@@ -1,3 +1,5 @@
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace Data.Models
 {
     public class TaskItem
@@ -8,5 +10,10 @@ namespace Data.Models
     public bool IsDone { get; set; }
     public DateTime CreatedAt { get; set; }
     public DateTime? DueDate { get; set; }
+
+    public int CategoryId { get; set; }
+    [ForeignKey(nameof(CategoryId))]
+    public Category? Category { get; set; }
+
 }
 }
