@@ -1,10 +1,123 @@
 ﻿@page
-@model IndexModel
-@{
-    ViewData["Title"] = "Home page";
+<link rel="stylesheet" href="~/css/index.css" />
+
+<div class="home-container">
+    <!-- Hero Section -->
+    <section class="hero text-center">
+        <h1 class="display-4">Welcome, Developer!</h1>
+        <p class="lead">Manage your tasks easily and efficiently. No magic, just simple productivity!</p>
+        <button class="btn-primary" onclick="window.location.href='/Tasks'">Go to My Tasks</button>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="feature-card">
+            <h3>Add Tasks</h3>
+            <p>Create tasks with titles, descriptions, due dates, and priorities.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Organize by Categories</h3>
+            <p>Group your tasks into categories like Work, School, or Personal.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Track Progress</h3>
+            <p>Mark tasks as done and see your productivity improve.</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about text-center">
+        <h2>Why use this To-Do List?</h2>
+        <p>It’s lightweight, fast, and designed to help you focus on what matters. Perfect for exams, practice, or daily productivity!</p>
+    </section>
+</div>
+
+<style>
+/* Home page styles */
+.home-container {
+    font-family: 'Segoe UI', sans-serif;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+.hero {
+    margin-top: 50px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #34495e;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border: none;
+    padding: 10px 25px;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.feature-card {
+    background-color: #ecf0f1;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1 1 250px;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.feature-card h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.feature-card p {
+    color: #34495e;
+}
+
+/* About Section */
+.about {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f7f9fa;
+    border-radius: 10px;
+}
+
+.about h2 {
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+.about p {
+    color: #34495e;
+    font-size: 1.1rem;
+}
+</style>
