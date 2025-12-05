@@ -1,0 +1,30 @@
+@page
+@model List<TaskItem>
+
+@{
+    ViewData["Title"] = "Tasks";
+}
+
+<h1>Tasks</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Is Done?</th>
+            <th>Due Date</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var task in Model)
+    {
+        <tr>
+            <td>@task.Title</td>
+            <td>@task.Description</td>
+            <td>@(task.IsDone ? "Yes" : "No")</td>
+            <td>@task.DueDate?.ToShortDateString()</td>
+        </tr>
+    }
+    </tbody>
+</table>

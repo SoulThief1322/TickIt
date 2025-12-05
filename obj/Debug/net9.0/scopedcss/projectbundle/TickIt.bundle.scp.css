@@ -1,0 +1,103 @@
+/* _content/TickIt/Pages/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-u7grrgmggi] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-u7grrgmggi] {
+  color: #0077cc;
+}
+
+.btn-primary[b-u7grrgmggi] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-u7grrgmggi], .nav-pills .show > .nav-link[b-u7grrgmggi] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-u7grrgmggi] {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom[b-u7grrgmggi] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-u7grrgmggi] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-u7grrgmggi] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.site-footer[b-u7grrgmggi] {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px 0;
+    margin-top: 50px;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+}
+
+/* Make page take full height */
+html[b-u7grrgmggi], body[b-u7grrgmggi] {
+    height: 100%;
+    margin: 0;
+}
+
+/* Flex layout for wrapper */
+.page-wrapper[b-u7grrgmggi] {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Content grows to fill available space */
+.content[b-u7grrgmggi] {
+    flex: 1;
+}
+
+/* Footer styles */
+.site-footer[b-u7grrgmggi] {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 20px 0;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+}
+
+.footer-content[b-u7grrgmggi] {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.footer-left p[b-u7grrgmggi] {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.footer-right a[b-u7grrgmggi] {
+    color: #ecf0f1;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 0.9rem;
+    transition: color 0.2s ease;
+}
+
+.footer-right a:hover[b-u7grrgmggi] {
+    color: #3498db;
+}

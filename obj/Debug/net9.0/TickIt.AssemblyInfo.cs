@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TickIt")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a294184c287eddfcd27eba682f239811b58fc2f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+588a206b26a532d9500191e6c5e550fc1eaf838f")]
 [assembly: System.Reflection.AssemblyProductAttribute("TickIt")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TickIt")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

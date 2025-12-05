@@ -1,8 +1,91 @@
 ﻿@page
 @model PrivacyModel
-@{
-    ViewData["Title"] = "Privacy Policy";
-}
-<h1>@ViewData["Title"]</h1>
+<link rel="stylesheet" href="~/css/index.css" />
 
-<p>Use this page to detail your site's privacy policy.</p>
+<div class="privacy-container">
+    <!-- Hero Section -->
+    <section class="hero text-center">
+        <h1 class="display-4">Privacy Policy</h1>
+        <p class="lead">We care about your data and want you to know how it is handled.</p>
+    </section>
+
+    <!-- Privacy Content Section -->
+    <section class="privacy-content">
+        <h2>1. Data Collection</h2>
+        <p>We only collect minimal information necessary to manage your tasks and enhance your experience. This includes your username and email if you register.</p>
+
+        <h2>2. Data Usage</h2>
+        <p>All your data is used solely for managing your tasks and providing a better user experience. We do not sell or share your information with third parties.</p>
+
+        <h2>3. Security</h2>
+        <p>We implement standard security practices to protect your data. Your passwords are stored securely using hashing techniques.</p>
+
+        <h2>4. Cookies</h2>
+        <p>We may use cookies for session management and improving site functionality. No tracking for advertisements.</p>
+
+        <h2>5. Contact</h2>
+        <p>If you have any concerns regarding privacy, please contact us at <strong>support@tickit.com</strong>.</p>
+    </section>
+
+    <!-- Back Button -->
+    <section class="text-center" style="margin-top:30px;">
+        <button class="btn-primary" onclick="window.location.href='/'">Back to Home</button>
+    </section>
+</div>
+
+<style>
+/* Privacy page styles */
+.privacy-container {
+    font-family: 'Segoe UI', sans-serif;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.hero {
+    margin-top: 50px;
+}
+
+.hero h1 {
+    font-size: 2.8rem;
+    color: #2c3e50;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #34495e;
+}
+
+.privacy-content {
+    margin-top: 40px;
+    background-color: #f7f9fa;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.privacy-content h2 {
+    color: #2c3e50;
+    margin-top: 20px;
+}
+
+.privacy-content p {
+    color: #34495e;
+    font-size: 1.05rem;
+    margin-bottom: 15px;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border: none;
+    padding: 10px 25px;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+}
+</style>
