@@ -1,0 +1,813 @@
+gajok@DESKTOP-FSRPMRQ MINGW64 ~
+$ mkdir TickIt
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~
+$ cd TickIt
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt
+$ ^[[200~dotnet new webapp -o MyProject --auth Individual
+bash: $'\E[200~dotnet': command not found
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt
+$ dotnet new webapp --auth Individual
+The template "ASP.NET Core Web App (Razor Pages)" was created successfully.
+This template contains technologies from parties other than Microsoft, see https://aka.ms/aspnetcore/9.0-third-party-notices for details.
+
+Processing post-creation actions...
+Restoring C:\Users\gajok\TickIt\TickIt.csproj:
+  Determining projects to restore...
+  Restored C:\Users\gajok\TickIt\TickIt.csproj (in 760 ms).
+Restore succeeded.
+
+
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt
+$ code .
+To read from stdin, append '-' (e.g. 'echo Hello World | code -')
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt
+$ git init
+Initialized empty Git repository in C:/Users/gajok/TickIt/.git/
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (master)
+$ git add .
+warning: in the working copy of 'wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'wwwroot/lib/bootstrap/dist/css/bootstrap.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'wwwroot/lib/bootstrap/dist/css/bootstrap.min.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'wwwroot/lib/bootstrap/dist/js/bootstrap.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'wwwroot/lib/bootstrap/dist/js/bootstrap.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'wwwroot/lib/jquery-validation/dist/jquery.validate.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'wwwroot/lib/jquery-validation/dist/jquery.validate.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'wwwroot/lib/jquery/dist/jquery.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'wwwroot/lib/jquery/dist/jquery.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'wwwroot/lib/jquery/dist/jquery.slim.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'wwwroot/lib/jquery/dist/jquery.slim.min.js', LF will be replaced by CRLF the next time Git touches it
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (master)
+$ git commit -m "Initial commit"
+[master (root-commit) 2a29418] Initial commit
+ 101 files changed, 87848 insertions(+)
+ create mode 100644 Areas/Identity/Pages/_ViewStart.cshtml
+ create mode 100644 Data/ApplicationDbContext.cs
+ create mode 100644 Data/Migrations/00000000000000_CreateIdentitySchema.Designer.cs
+ create mode 100644 Data/Migrations/00000000000000_CreateIdentitySchema.cs
+ create mode 100644 Data/Migrations/ApplicationDbContextModelSnapshot.cs
+ create mode 100644 Pages/Error.cshtml
+ create mode 100644 Pages/Error.cshtml.cs
+ create mode 100644 Pages/Index.cshtml
+ create mode 100644 Pages/Index.cshtml.cs
+ create mode 100644 Pages/Privacy.cshtml
+ create mode 100644 Pages/Privacy.cshtml.cs
+ create mode 100644 Pages/Shared/_Layout.cshtml
+ create mode 100644 Pages/Shared/_Layout.cshtml.css
+ create mode 100644 Pages/Shared/_LoginPartial.cshtml
+ create mode 100644 Pages/Shared/_ValidationScriptsPartial.cshtml
+ create mode 100644 Pages/_ViewImports.cshtml
+ create mode 100644 Pages/_ViewStart.cshtml
+ create mode 100644 Program.cs
+ create mode 100644 Properties/launchSettings.json
+ create mode 100644 TickIt.csproj
+ create mode 100644 TickIt.sln
+ create mode 100644 app.db
+ create mode 100644 appsettings.Development.json
+ create mode 100644 appsettings.json
+ create mode 100644 obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs
+ create mode 100644 obj/Debug/net9.0/TickIt.AssemblyInfo.cs
+ create mode 100644 obj/Debug/net9.0/TickIt.AssemblyInfoInputs.cache
+ create mode 100644 obj/Debug/net9.0/TickIt.GeneratedMSBuildEditorConfig.editorconfig
+ create mode 100644 obj/Debug/net9.0/TickIt.GlobalUsings.g.cs
+ create mode 100644 obj/Debug/net9.0/TickIt.RazorAssemblyInfo.cache
+ create mode 100644 obj/Debug/net9.0/TickIt.RazorAssemblyInfo.cs
+ create mode 100644 obj/Debug/net9.0/TickIt.assets.cache
+ create mode 100644 obj/Debug/net9.0/TickIt.csproj.AssemblyReference.cache
+ create mode 100644 obj/TickIt.csproj.nuget.dgspec.json
+ create mode 100644 obj/TickIt.csproj.nuget.g.props
+ create mode 100644 obj/TickIt.csproj.nuget.g.targets
+ create mode 100644 obj/project.assets.json
+ create mode 100644 obj/project.nuget.cache
+ create mode 100644 wwwroot/css/site.css
+ create mode 100644 wwwroot/favicon.ico
+ create mode 100644 wwwroot/js/site.js
+ create mode 100644 wwwroot/lib/bootstrap/LICENSE
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap.css
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap.css.map
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap.min.css
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css
+ create mode 100644 wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map
+ create mode 100644 wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js
+ create mode 100644 wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map
+ create mode 100644 wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js
+ create mode 100644 wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map
+ create mode 100644 wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js
+ create mode 100644 wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map
+ create mode 100644 wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js
+ create mode 100644 wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map
+ create mode 100644 wwwroot/lib/bootstrap/dist/js/bootstrap.js
+ create mode 100644 wwwroot/lib/bootstrap/dist/js/bootstrap.js.map
+ create mode 100644 wwwroot/lib/bootstrap/dist/js/bootstrap.min.js
+ create mode 100644 wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map
+ create mode 100644 wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt
+ create mode 100644 wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.js
+ create mode 100644 wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js
+ create mode 100644 wwwroot/lib/jquery-validation/LICENSE.md
+ create mode 100644 wwwroot/lib/jquery-validation/dist/additional-methods.js
+ create mode 100644 wwwroot/lib/jquery-validation/dist/additional-methods.min.js
+ create mode 100644 wwwroot/lib/jquery-validation/dist/jquery.validate.js
+ create mode 100644 wwwroot/lib/jquery-validation/dist/jquery.validate.min.js
+ create mode 100644 wwwroot/lib/jquery/LICENSE.txt
+ create mode 100644 wwwroot/lib/jquery/dist/jquery.js
+ create mode 100644 wwwroot/lib/jquery/dist/jquery.min.js
+ create mode 100644 wwwroot/lib/jquery/dist/jquery.min.map
+ create mode 100644 wwwroot/lib/jquery/dist/jquery.slim.js
+ create mode 100644 wwwroot/lib/jquery/dist/jquery.slim.min.js
+ create mode 100644 wwwroot/lib/jquery/dist/jquery.slim.min.map
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (master)
+$ git remoet add origin https://github.com/SoulThief1322/TickIt.git
+git: 'remoet' is not a git command. See 'git --help'.
+
+The most similar command is
+        remote
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (master)
+$ git remote add origin https://github.com/SoulThief1322/TickIt.git
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (master)
+$ git branch -M main
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (main)
+$ git push -u origin main
+Enumerating objects: 128, done.
+Counting objects: 100% (128/128), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (120/120), done.
+Writing objects: 100% (128/128), 1.14 MiB | 402.00 KiB/s, done.
+Total 128 (delta 31), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (31/31), done.
+To https://github.com/SoulThief1322/TickIt.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (main)
+$
+
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (main)
+$ git branch dev
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (main)
+$ git checkout dev
+Switched to branch 'dev'
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ git push -u origin dev
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: Create a pull request for 'dev' on GitHub by visiting:
+remote:      https://github.com/SoulThief1322/TickIt/pull/new/dev
+remote:
+To https://github.com/SoulThief1322/TickIt.git
+ * [new branch]      dev -> dev
+branch 'dev' set up to track 'origin/dev'.
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ git commit -m "TaskItem model added"
+On branch dev
+Your branch is up to date with 'origin/dev'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Data/ApplicationDbContext.cs
+        modified:   obj/Debug/net9.0/TickIt.AssemblyInfo.cs
+        modified:   obj/Debug/net9.0/TickIt.AssemblyInfoInputs.cache
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Data/Models/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ git add .
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ git commit -m "TaskItem model added"
+[dev 25925ea] TaskItem model added
+ 4 files changed, 23 insertions(+), 3 deletions(-)
+ create mode 100644 Data/Models/TaskItem.cs
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ git push
+Enumerating objects: 19, done.
+Counting objects: 100% (19/19), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (9/9), done.
+Writing objects: 100% (11/11), 1.12 KiB | 1.12 MiB/s, done.
+Total 11 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+To https://github.com/SoulThief1322/TickIt.git
+   2a29418..25925ea  dev -> dev
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ git add .
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ git commit -m "Category model added"
+[dev 9e9975f] Category model added
+ 4 files changed, 13 insertions(+), 2 deletions(-)
+ create mode 100644 Data/Models/Category.cs
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ git push
+Enumerating objects: 20, done.
+Counting objects: 100% (20/20), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (11/11), 1.03 KiB | 527.00 KiB/s, done.
+Total 11 (delta 5), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (5/5), completed with 5 local objects.
+To https://github.com/SoulThief1322/TickIt.git
+   25925ea..9e9975f  dev -> dev
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ git add .
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ git commit -m "Added priority enum"
+[dev 1e5670c] Added priority enum
+ 3 files changed, 12 insertions(+), 2 deletions(-)
+ create mode 100644 Data/Enums/Priority.cs
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ git push
+Enumerating objects: 17, done.
+Counting objects: 100% (17/17), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (10/10), 924 bytes | 924.00 KiB/s, done.
+Total 10 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
+To https://github.com/SoulThief1322/TickIt.git
+   9e9975f..1e5670c  dev -> dev
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ dotnet build
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  TickIt -> C:\Users\gajok\TickIt\bin\Debug\net9.0\TickIt.dll
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:06.87
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ git add .
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ git add .
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ git commit -m "Migration added"
+[dev ed77e0a] Migration added
+ 343 files changed, 97680 insertions(+), 515 deletions(-)
+ create mode 100644 .vscode/settings.json
+ delete mode 100644 Data/Migrations/00000000000000_CreateIdentitySchema.cs
+ rename Data/Migrations/00000000000000_CreateIdentitySchema.Designer.cs => Migrations/20251205084212_InitiaCreate.Designer.cs (51%)
+ create mode 100644 Migrations/20251205084212_InitiaCreate.cs
+ rename {Data/Migrations => Migrations}/ApplicationDbContextModelSnapshot.cs (51%)
+ create mode 100644 bin/Debug/net9.0/Azure.Core.dll
+ create mode 100644 bin/Debug/net9.0/Azure.Identity.dll
+ create mode 100644 bin/Debug/net9.0/Humanizer.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.AspNetCore.Identity.UI.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.Build.Locator.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.CodeAnalysis.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.Data.SqlClient.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.Data.Sqlite.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Design.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.Extensions.Caching.Memory.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.Extensions.Logging.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.Extensions.Options.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.Identity.Client.Extensions.Msal.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.Identity.Client.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.SqlServer.Server.dll
+ create mode 100644 bin/Debug/net9.0/Microsoft.Win32.SystemEvents.dll
+ create mode 100644 bin/Debug/net9.0/Mono.TextTemplating.dll
+ create mode 100644 bin/Debug/net9.0/SQLitePCLRaw.batteries_v2.dll
+ create mode 100644 bin/Debug/net9.0/SQLitePCLRaw.core.dll
+ create mode 100644 bin/Debug/net9.0/SQLitePCLRaw.provider.e_sqlite3.dll
+ create mode 100644 bin/Debug/net9.0/System.ClientModel.dll
+ create mode 100644 bin/Debug/net9.0/System.CodeDom.dll
+ create mode 100644 bin/Debug/net9.0/System.Composition.AttributedModel.dll
+ create mode 100644 bin/Debug/net9.0/System.Composition.Convention.dll
+ create mode 100644 bin/Debug/net9.0/System.Composition.Hosting.dll
+ create mode 100644 bin/Debug/net9.0/System.Composition.Runtime.dll
+ create mode 100644 bin/Debug/net9.0/System.Composition.TypedParts.dll
+ create mode 100644 bin/Debug/net9.0/System.Configuration.ConfigurationManager.dll
+ create mode 100644 bin/Debug/net9.0/System.Drawing.Common.dll
+ create mode 100644 bin/Debug/net9.0/System.Formats.Asn1.dll
+ create mode 100644 bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll
+ create mode 100644 bin/Debug/net9.0/System.Memory.Data.dll
+ create mode 100644 bin/Debug/net9.0/System.Runtime.Caching.dll
+ create mode 100644 bin/Debug/net9.0/System.Security.Cryptography.ProtectedData.dll
+ create mode 100644 bin/Debug/net9.0/System.Security.Permissions.dll
+ create mode 100644 bin/Debug/net9.0/System.Text.Json.dll
+ create mode 100644 bin/Debug/net9.0/System.Windows.Extensions.dll
+ create mode 100644 bin/Debug/net9.0/TickIt.deps.json
+ create mode 100644 bin/Debug/net9.0/TickIt.dll
+ create mode 100644 bin/Debug/net9.0/TickIt.exe
+ create mode 100644 bin/Debug/net9.0/TickIt.pdb
+ create mode 100644 bin/Debug/net9.0/TickIt.runtimeconfig.json
+ create mode 100644 bin/Debug/net9.0/TickIt.staticwebassets.endpoints.json
+ create mode 100644 bin/Debug/net9.0/TickIt.staticwebassets.runtime.json
+ create mode 100644 bin/Debug/net9.0/app.db
+ create mode 100644 bin/Debug/net9.0/appsettings.Development.json
+ create mode 100644 bin/Debug/net9.0/appsettings.json
+ create mode 100644 bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+ create mode 100644 bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll
+ create mode 100644 bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+ create mode 100644 bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll
+ create mode 100644 bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.resources.dll
+ create mode 100644 bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+ create mode 100644 bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll
+ create mode 100644 bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+ create mode 100644 bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll
+ create mode 100644 bin/Debug/net9.0/de/Microsoft.CodeAnalysis.resources.dll
+ create mode 100644 bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+ create mode 100644 bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll
+ create mode 100644 bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+ create mode 100644 bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll
+ create mode 100644 bin/Debug/net9.0/es/Microsoft.CodeAnalysis.resources.dll
+ create mode 100644 bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+ create mode 100644 bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll
+ create mode 100644 bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+ create mode 100644 bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+ create mode 100644 bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.resources.dll
+ create mode 100644 bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+ create mode 100644 bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll
+ create mode 100644 bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+ create mode 100644 bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll
+ create mode 100644 bin/Debug/net9.0/it/Microsoft.CodeAnalysis.resources.dll
+ create mode 100644 bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+ create mode 100644 bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll
+ create mode 100644 bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+ create mode 100644 bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll
+ create mode 100644 bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.resources.dll
+ create mode 100644 bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+ create mode 100644 bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll
+ create mode 100644 bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+ create mode 100644 bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll
+ create mode 100644 bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.resources.dll
+ create mode 100644 bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+ create mode 100644 bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll
+ create mode 100644 bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+ create mode 100644 bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll
+ create mode 100644 bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.resources.dll
+ create mode 100644 bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+ create mode 100644 bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll
+ create mode 100644 bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+ create mode 100644 bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll
+ create mode 100644 bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.resources.dll
+ create mode 100644 bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+ create mode 100644 bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll
+ create mode 100644 bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+ create mode 100644 bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll
+ create mode 100644 bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.resources.dll
+ create mode 100644 bin/Debug/net9.0/runtimes/browser-wasm/nativeassets/net9.0/e_sqlite3.a
+ create mode 100644 bin/Debug/net9.0/runtimes/linux-arm/native/libe_sqlite3.so
+ create mode 100644 bin/Debug/net9.0/runtimes/linux-arm64/native/libe_sqlite3.so
+ create mode 100644 bin/Debug/net9.0/runtimes/linux-armel/native/libe_sqlite3.so
+ create mode 100644 bin/Debug/net9.0/runtimes/linux-mips64/native/libe_sqlite3.so
+ create mode 100644 bin/Debug/net9.0/runtimes/linux-musl-arm/native/libe_sqlite3.so
+ create mode 100644 bin/Debug/net9.0/runtimes/linux-musl-arm64/native/libe_sqlite3.so
+ create mode 100644 bin/Debug/net9.0/runtimes/linux-musl-s390x/native/libe_sqlite3.so
+ create mode 100644 bin/Debug/net9.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+ create mode 100644 bin/Debug/net9.0/runtimes/linux-ppc64le/native/libe_sqlite3.so
+ create mode 100644 bin/Debug/net9.0/runtimes/linux-s390x/native/libe_sqlite3.so
+ create mode 100644 bin/Debug/net9.0/runtimes/linux-x64/native/libe_sqlite3.so
+ create mode 100644 bin/Debug/net9.0/runtimes/linux-x86/native/libe_sqlite3.so
+ create mode 100644 bin/Debug/net9.0/runtimes/maccatalyst-arm64/native/libe_sqlite3.dylib
+ create mode 100644 bin/Debug/net9.0/runtimes/maccatalyst-x64/native/libe_sqlite3.dylib
+ create mode 100644 bin/Debug/net9.0/runtimes/osx-arm64/native/libe_sqlite3.dylib
+ create mode 100644 bin/Debug/net9.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+ create mode 100644 bin/Debug/net9.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll
+ create mode 100644 bin/Debug/net9.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll
+ create mode 100644 bin/Debug/net9.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+ create mode 100644 bin/Debug/net9.0/runtimes/win-arm/native/e_sqlite3.dll
+ create mode 100644 bin/Debug/net9.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+ create mode 100644 bin/Debug/net9.0/runtimes/win-arm64/native/e_sqlite3.dll
+ create mode 100644 bin/Debug/net9.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+ create mode 100644 bin/Debug/net9.0/runtimes/win-x64/native/e_sqlite3.dll
+ create mode 100644 bin/Debug/net9.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+ create mode 100644 bin/Debug/net9.0/runtimes/win-x86/native/e_sqlite3.dll
+ create mode 100644 bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll
+ create mode 100644 bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll
+ create mode 100644 bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll
+ create mode 100644 bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll
+ create mode 100644 bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll
+ create mode 100644 bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll
+ create mode 100644 bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+ create mode 100644 bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll
+ create mode 100644 bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+ create mode 100644 bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
+ create mode 100644 bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.resources.dll
+ create mode 100644 bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+ create mode 100644 bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll
+ create mode 100644 bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+ create mode 100644 bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
+ create mode 100644 bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll
+ create mode 100644 bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+ create mode 100644 bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll
+ create mode 100644 bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+ create mode 100644 bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+ create mode 100644 bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll
+ create mode 100644 obj/Debug/net9.0/TickIt.MvcApplicationPartsAssemblyInfo.cache
+ create mode 100644 obj/Debug/net9.0/TickIt.MvcApplicationPartsAssemblyInfo.cs
+ create mode 100644 obj/Debug/net9.0/TickIt.csproj.CoreCompileInputs.cache
+ create mode 100644 obj/Debug/net9.0/TickIt.csproj.FileListAbsolute.txt
+ create mode 100644 obj/Debug/net9.0/TickIt.csproj.Up2Date
+ create mode 100644 obj/Debug/net9.0/TickIt.dll
+ create mode 100644 obj/Debug/net9.0/TickIt.genruntimeconfig.cache
+ create mode 100644 obj/Debug/net9.0/TickIt.pdb
+ create mode 100644 obj/Debug/net9.0/TickIt.sourcelink.json
+ create mode 100644 obj/Debug/net9.0/apphost.exe
+ create mode 100644 obj/Debug/net9.0/compressed/0hbwivfz8e-iovd86k7lj.gz
+ create mode 100644 obj/Debug/net9.0/compressed/0k1i85ntyh-6cfz1n2cew.gz
+ create mode 100644 obj/Debug/net9.0/compressed/0n6bchh128-hrwsygsryq.gz
+ create mode 100644 obj/Debug/net9.0/compressed/14ipv7q33s-bqjiyaj88i.gz
+ create mode 100644 obj/Debug/net9.0/compressed/1fc4q00scq-khv3u5hwcm.gz
+ create mode 100644 obj/Debug/net9.0/compressed/1ip8t5lqt0-mlv21k5csn.gz
+ create mode 100644 obj/Debug/net9.0/compressed/1uqgefxkag-ttgo8qnofa.gz
+ create mode 100644 obj/Debug/net9.0/compressed/1zhk8bnp0x-ub07r2b239.gz
+ create mode 100644 obj/Debug/net9.0/compressed/25xaz9uwzm-h1s4sie4z3.gz
+ create mode 100644 obj/Debug/net9.0/compressed/26eviekxym-47otxtyo56.gz
+ create mode 100644 obj/Debug/net9.0/compressed/2gistgzh3w-vr1egmr9el.gz
+ create mode 100644 obj/Debug/net9.0/compressed/2tikzqlmtu-ag7o75518u.gz
+ create mode 100644 obj/Debug/net9.0/compressed/2xfv6z8cfj-r4e9w2rdcm.gz
+ create mode 100644 obj/Debug/net9.0/compressed/3kto94p3l9-b9sayid5wm.gz
+ create mode 100644 obj/Debug/net9.0/compressed/3o47iy574o-k8d9w2qqmf.gz
+ create mode 100644 obj/Debug/net9.0/compressed/3tzsqhslk9-ub07r2b239.gz
+ create mode 100644 obj/Debug/net9.0/compressed/47012z8l2l-pj5nd1wqec.gz
+ create mode 100644 obj/Debug/net9.0/compressed/4vzefxwp2m-46ein0sx1k.gz
+ create mode 100644 obj/Debug/net9.0/compressed/4yjbjm6lgl-fsbi9cje9m.gz
+ create mode 100644 obj/Debug/net9.0/compressed/5bwh04i8hv-6pdc2jztkx.gz
+ create mode 100644 obj/Debug/net9.0/compressed/604xo1y385-83jwlth58m.gz
+ create mode 100644 obj/Debug/net9.0/compressed/6oimasg7ix-v0zj4ognzu.gz
+ create mode 100644 obj/Debug/net9.0/compressed/7jqbq75fm7-2z0ns9nrw6.gz
+ create mode 100644 obj/Debug/net9.0/compressed/7o8oyvng68-tdbxkamptv.gz
+ create mode 100644 obj/Debug/net9.0/compressed/7oosjldgvx-s35ty4nyc5.gz
+ create mode 100644 obj/Debug/net9.0/compressed/7ze9bbvduu-ft3s53vfgj.gz
+ create mode 100644 obj/Debug/net9.0/compressed/8axix7wldr-fsbi9cje9m.gz
+ create mode 100644 obj/Debug/net9.0/compressed/8r9ru4a2lh-aexeepp0ev.gz
+ create mode 100644 obj/Debug/net9.0/compressed/8xykfy6qmd-r4e9w2rdcm.gz
+ create mode 100644 obj/Debug/net9.0/compressed/9glsckmvxo-aexeepp0ev.gz
+ create mode 100644 obj/Debug/net9.0/compressed/9muusbdg0a-x0q3zqp4vz.gz
+ create mode 100644 obj/Debug/net9.0/compressed/9pirfzeqz0-87fc7y1x7t.gz
+ create mode 100644 obj/Debug/net9.0/compressed/a3ygkwa5zy-2z0ns9nrw6.gz
+ create mode 100644 obj/Debug/net9.0/compressed/aqjppsuzub-d7shbmvgxk.gz
+ create mode 100644 obj/Debug/net9.0/compressed/b9lhb08218-ttgo8qnofa.gz
+ create mode 100644 obj/Debug/net9.0/compressed/bh4v3mdph9-v0zj4ognzu.gz
+ create mode 100644 obj/Debug/net9.0/compressed/bww8ud00yd-ausgxo2sd3.gz
+ create mode 100644 obj/Debug/net9.0/compressed/c7bbi869sp-jd9uben2k1.gz
+ create mode 100644 obj/Debug/net9.0/compressed/cynp17w084-c2oey78nd0.gz
+ create mode 100644 obj/Debug/net9.0/compressed/czydapzo8e-9g0v9bnymk.gz
+ create mode 100644 obj/Debug/net9.0/compressed/d3ifghilya-61n19gt1b8.gz
+ create mode 100644 obj/Debug/net9.0/compressed/d5z9sfpxbi-rzd6atqjts.gz
+ create mode 100644 obj/Debug/net9.0/compressed/do8lgp8cnw-xtxxf3hu2r.gz
+ create mode 100644 obj/Debug/net9.0/compressed/eb27mqwgz2-erw9l3u2r3.gz
+ create mode 100644 obj/Debug/net9.0/compressed/eb6r8pk8jd-rzd6atqjts.gz
+ create mode 100644 obj/Debug/net9.0/compressed/edcrak57d7-k8d9w2qqmf.gz
+ create mode 100644 obj/Debug/net9.0/compressed/egpsshurtg-ausgxo2sd3.gz
+ create mode 100644 obj/Debug/net9.0/compressed/fw4vo74ajn-37tfw0ft22.gz
+ create mode 100644 obj/Debug/net9.0/compressed/g4h03tre1d-0i3buxo5is.gz
+ create mode 100644 obj/Debug/net9.0/compressed/gw15si02pl-c2oey78nd0.gz
+ create mode 100644 obj/Debug/net9.0/compressed/h9vwtoirpy-j5mq2jizvt.gz
+ create mode 100644 obj/Debug/net9.0/compressed/hh8ihyobdx-d7shbmvgxk.gz
+ create mode 100644 obj/Debug/net9.0/compressed/higufxz8op-vr1egmr9el.gz
+ create mode 100644 obj/Debug/net9.0/compressed/hr22xc0sas-356vix0kms.gz
+ create mode 100644 obj/Debug/net9.0/compressed/i7a2quhmom-dxx9fxp4il.gz
+ create mode 100644 obj/Debug/net9.0/compressed/i8mj9apbz6-lcd1t2u6c8.gz
+ create mode 100644 obj/Debug/net9.0/compressed/igscs4x0yk-h1s4sie4z3.gz
+ create mode 100644 obj/Debug/net9.0/compressed/imvctoppsg-c2jlpeoesf.gz
+ create mode 100644 obj/Debug/net9.0/compressed/ivy2s9gwh5-iovd86k7lj.gz
+ create mode 100644 obj/Debug/net9.0/compressed/iznc766avz-nvvlpmu67g.gz
+ create mode 100644 obj/Debug/net9.0/compressed/j0e7zyqggu-y7v9cxd14o.gz
+ create mode 100644 obj/Debug/net9.0/compressed/j3hwsq15kh-47otxtyo56.gz
+ create mode 100644 obj/Debug/net9.0/compressed/j9swiz3yzq-90yqlj465b.gz
+ create mode 100644 obj/Debug/net9.0/compressed/jy8t8wtuyx-nvvlpmu67g.gz
+ create mode 100644 obj/Debug/net9.0/compressed/k8b25g0zwc-b7pk76d08c.gz
+ create mode 100644 obj/Debug/net9.0/compressed/kb0cr988mi-493y06b0oq.gz
+ create mode 100644 obj/Debug/net9.0/compressed/ko6pc7rt5w-ee0r1s7dh0.gz
+ create mode 100644 obj/Debug/net9.0/compressed/kuf85p724g-o1o13a6vjx.gz
+ create mode 100644 obj/Debug/net9.0/compressed/l186vlgaag-37tfw0ft22.gz
+ create mode 100644 obj/Debug/net9.0/compressed/l6p66lblaj-06098lyss8.gz
+ create mode 100644 obj/Debug/net9.0/compressed/ldxy2n3w6q-356vix0kms.gz
+ create mode 100644 obj/Debug/net9.0/compressed/lr5hmrr0j7-493y06b0oq.gz
+ create mode 100644 obj/Debug/net9.0/compressed/mrr7m8at2b-notf2xhcfb.gz
+ create mode 100644 obj/Debug/net9.0/compressed/n69fwcxbi6-khv3u5hwcm.gz
+ create mode 100644 obj/Debug/net9.0/compressed/nezrqnk58p-muycvpuwrr.gz
+ create mode 100644 obj/Debug/net9.0/compressed/nl95230fs3-kbrnm935zg.gz
+ create mode 100644 obj/Debug/net9.0/compressed/nlrl0f3xs3-jd9uben2k1.gz
+ create mode 100644 obj/Debug/net9.0/compressed/ns4583i71s-s35ty4nyc5.gz
+ create mode 100644 obj/Debug/net9.0/compressed/nw0ffipl0b-b7pk76d08c.gz
+ create mode 100644 obj/Debug/net9.0/compressed/o5k23vqhrk-06098lyss8.gz
+ create mode 100644 obj/Debug/net9.0/compressed/oaedwpzaqm-tdbxkamptv.gz
+ create mode 100644 obj/Debug/net9.0/compressed/ofa40bqe71-b9sayid5wm.gz
+ create mode 100644 obj/Debug/net9.0/compressed/oihidgppk0-mrlpezrjn3.gz
+ create mode 100644 obj/Debug/net9.0/compressed/on7obc35xf-63fj8s7r0e.gz
+ create mode 100644 obj/Debug/net9.0/compressed/onx06nn0g6-9g0v9bnymk.gz
+ create mode 100644 obj/Debug/net9.0/compressed/oxk5o6czdw-fvhpjtyr6v.gz
+ create mode 100644 obj/Debug/net9.0/compressed/p38ktkob7v-fvhpjtyr6v.gz
+ create mode 100644 obj/Debug/net9.0/compressed/pgun0zw6gq-ag7o75518u.gz
+ create mode 100644 obj/Debug/net9.0/compressed/pogzkicjpz-0j3bgjxly4.gz
+ create mode 100644 obj/Debug/net9.0/compressed/pvaph78xvx-jj8uyg4cgr.gz
+ create mode 100644 obj/Debug/net9.0/compressed/pyzwy59kwe-cosvhxvwiu.gz
+ create mode 100644 obj/Debug/net9.0/compressed/q0hc6tk875-4v8eqarkd7.gz
+ create mode 100644 obj/Debug/net9.0/compressed/q3naettu8c-4v8eqarkd7.gz
+ create mode 100644 obj/Debug/net9.0/compressed/qfr28sqcy1-ft3s53vfgj.gz
+ create mode 100644 obj/Debug/net9.0/compressed/r98hncu1o2-0j3bgjxly4.gz
+ create mode 100644 obj/Debug/net9.0/compressed/rh65p086id-c2jlpeoesf.gz
+ create mode 100644 obj/Debug/net9.0/compressed/roqxqdyu8h-erw9l3u2r3.gz
+ create mode 100644 obj/Debug/net9.0/compressed/rsc7qacj1u-hrwsygsryq.gz
+ create mode 100644 obj/Debug/net9.0/compressed/s3tglgz8hr-kbrnm935zg.gz
+ create mode 100644 obj/Debug/net9.0/compressed/sf8kf2lula-cosvhxvwiu.gz
+ create mode 100644 obj/Debug/net9.0/compressed/t0qo7o574p-o1o13a6vjx.gz
+ create mode 100644 obj/Debug/net9.0/compressed/t6e3b82hrf-mrlpezrjn3.gz
+ create mode 100644 obj/Debug/net9.0/compressed/tg53r17ghy-dxx9fxp4il.gz
+ create mode 100644 obj/Debug/net9.0/compressed/tpsq5dibur-0i3buxo5is.gz
+ create mode 100644 obj/Debug/net9.0/compressed/u76j5bkqvi-pk9g2wxc8p.gz
+ create mode 100644 obj/Debug/net9.0/compressed/u8428c4e9i-ee0r1s7dh0.gz
+ create mode 100644 obj/Debug/net9.0/compressed/ul9jnvqkt6-j5mq2jizvt.gz
+ create mode 100644 obj/Debug/net9.0/compressed/uocis9wxbx-lzl9nlhx6b.gz
+ create mode 100644 obj/Debug/net9.0/compressed/utt60nn8l2-46ein0sx1k.gz
+ create mode 100644 obj/Debug/net9.0/compressed/v0zgfp0y55-87fc7y1x7t.gz
+ create mode 100644 obj/Debug/net9.0/compressed/vltxs1u3vm-xtxxf3hu2r.gz
+ create mode 100644 obj/Debug/net9.0/compressed/vsrbd71spn-lcd1t2u6c8.gz
+ create mode 100644 obj/Debug/net9.0/compressed/vu4s3phrne-bqjiyaj88i.gz
+ create mode 100644 obj/Debug/net9.0/compressed/vw9sls9bhj-jj8uyg4cgr.gz
+ create mode 100644 obj/Debug/net9.0/compressed/xa379ftczi-6pdc2jztkx.gz
+ create mode 100644 obj/Debug/net9.0/compressed/yd3vmehce7-lzl9nlhx6b.gz
+ create mode 100644 obj/Debug/net9.0/compressed/yfc7ypekbg-mlv21k5csn.gz
+ create mode 100644 obj/Debug/net9.0/compressed/ym8tkpcl2i-y7v9cxd14o.gz
+ create mode 100644 obj/Debug/net9.0/compressed/ypthv7q62w-83jwlth58m.gz
+ create mode 100644 obj/Debug/net9.0/compressed/yymaotlooe-x0q3zqp4vz.gz
+ create mode 100644 obj/Debug/net9.0/compressed/z408qb6q7a-pk9g2wxc8p.gz
+ create mode 100644 obj/Debug/net9.0/compressed/zap00c0tb5-63fj8s7r0e.gz
+ create mode 100644 obj/Debug/net9.0/compressed/zfsdghtpqh-pj5nd1wqec.gz
+ create mode 100644 obj/Debug/net9.0/compressed/zmsgx577ms-muycvpuwrr.gz
+ create mode 100644 obj/Debug/net9.0/compressed/ztd1kr9czz-6cfz1n2cew.gz
+ create mode 100644 obj/Debug/net9.0/compressed/zzna4nrm5w-notf2xhcfb.gz
+ create mode 100644 obj/Debug/net9.0/ref/TickIt.dll
+ create mode 100644 obj/Debug/net9.0/refint/TickIt.dll
+ create mode 100644 obj/Debug/net9.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+ create mode 100644 obj/Debug/net9.0/scopedcss/bundle/TickIt.styles.css
+ create mode 100644 obj/Debug/net9.0/scopedcss/projectbundle/TickIt.bundle.scp.css
+ create mode 100644 obj/Debug/net9.0/staticwebassets.build.endpoints.json
+ create mode 100644 obj/Debug/net9.0/staticwebassets.build.json
+ create mode 100644 obj/Debug/net9.0/staticwebassets.development.json
+ create mode 100644 obj/Debug/net9.0/staticwebassets.pack.json
+ create mode 100644 obj/Debug/net9.0/staticwebassets/msbuild.TickIt.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+ create mode 100644 obj/Debug/net9.0/staticwebassets/msbuild.TickIt.Microsoft.AspNetCore.StaticWebAssets.props
+ create mode 100644 obj/Debug/net9.0/staticwebassets/msbuild.build.TickIt.props
+ create mode 100644 obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.TickIt.props
+ create mode 100644 obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.TickIt.props
+ create mode 100644 obj/TickIt.csproj.EntityFrameworkCore.targets
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ git push
+Enumerating objects: 374, done.
+Counting objects: 100% (374/374), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (299/299), done.
+Writing objects: 100% (352/352), 28.50 MiB | 1.88 MiB/s, done.
+Total 352 (delta 84), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (84/84), completed with 13 local objects.
+To https://github.com/SoulThief1322/TickIt.git
+   1e5670c..ed77e0a  dev -> dev
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ git add .
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ git commit -m "Home page with design"
+[dev 80a30b8] Home page with design
+ 13 files changed, 123 insertions(+), 10 deletions(-)
+ create mode 100644 wwwroot/css/index.css
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ git push
+Enumerating objects: 39, done.
+Counting objects: 100% (39/39), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (20/20), 7.46 KiB | 763.00 KiB/s, done.
+Total 20 (delta 11), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (11/11), completed with 11 local objects.
+To https://github.com/SoulThief1322/TickIt.git
+   ed77e0a..80a30b8  dev -> dev
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ git add .
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ git commit -m "Added simple tasks page and controller"
+[dev 775e502] Added simple tasks page and controller
+ 22 files changed, 55 insertions(+), 58 deletions(-)
+ create mode 100644 Controllers/TasksController.cs
+ create mode 100644 Pages/Tasks.cshtml
+ delete mode 100644 wwwroot/css/index.css
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ git push
+Enumerating objects: 58, done.
+Counting objects: 100% (58/58), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (25/25), done.
+Writing objects: 100% (31/31), 49.54 KiB | 1.83 MiB/s, done.
+Total 31 (delta 17), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (17/17), completed with 17 local objects.
+To https://github.com/SoulThief1322/TickIt.git
+   80a30b8..775e502  dev -> dev
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ git add .
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ git commit -m "Added to get tasks in tasks page"
+[dev 29abb42] Added to get tasks in tasks page
+ 17 files changed, 43 insertions(+), 12 deletions(-)
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ git push
+Enumerating objects: 51, done.
+Counting objects: 100% (51/51), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (21/21), done.
+Writing objects: 100% (26/26), 64.60 KiB | 4.61 MiB/s, done.
+Total 26 (delta 14), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (14/14), completed with 14 local objects.
+To https://github.com/SoulThief1322/TickIt.git
+   775e502..29abb42  dev -> dev
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ git add .
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ git commit -m "Privacy page improved"
+[dev 6e3e01e] Privacy page improved
+ 1 file changed, 87 insertions(+), 4 deletions(-)
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ git commit -m "Footer improved"
+On branch dev
+Your branch is ahead of 'origin/dev' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Pages/Shared/_Layout.cshtml
+        modified:   Pages/Shared/_Layout.cshtml.css
+        modified:   obj/Debug/net9.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+        modified:   obj/Debug/net9.0/scopedcss/bundle/TickIt.styles.css
+        modified:   obj/Debug/net9.0/scopedcss/projectbundle/TickIt.bundle.scp.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ git add .
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ git commit -m "Footer improved"
+[dev 0ff4e45] Footer improved
+ 5 files changed, 256 insertions(+), 27 deletions(-)
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ git push
+Enumerating objects: 36, done.
+Counting objects: 100% (36/36), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (20/20), 3.46 KiB | 1.15 MiB/s, done.
+Total 20 (delta 10), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (10/10), completed with 6 local objects.
+To https://github.com/SoulThief1322/TickIt.git
+   29abb42..0ff4e45  dev -> dev
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ git add .
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ git commit -m "AddedUserExtensionClass"
+[dev b73d17f] AddedUserExtensionClass
+ 4 files changed, 32 insertions(+), 2 deletions(-)
+ create mode 100644 Data/Models/TaskUser.cs
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ git add .
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ git commit -m "Added migration for user"
+[dev f817d06] Added migration for user
+ 28 files changed, 814 insertions(+), 279 deletions(-)
+ create mode 100644 Migrations/20251205093634_AddedUser.Designer.cs
+ create mode 100644 Migrations/20251205093634_AddedUser.cs
+ delete mode 100644 obj/Debug/net9.0/compressed/czydapzo8e-9g0v9bnymk.gz
+ create mode 100644 obj/Debug/net9.0/compressed/czydapzo8e-mcauwxzlk2.gz
+ delete mode 100644 obj/Debug/net9.0/compressed/onx06nn0g6-9g0v9bnymk.gz
+ create mode 100644 obj/Debug/net9.0/compressed/onx06nn0g6-mcauwxzlk2.gz
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$ git push
+Enumerating objects: 72, done.
+Counting objects: 100% (72/72), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (37/37), done.
+Writing objects: 100% (42/42), 60.85 KiB | 1.11 MiB/s, done.
+Total 42 (delta 25), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (25/25), completed with 20 local objects.
+To https://github.com/SoulThief1322/TickIt.git
+   0ff4e45..f817d06  dev -> dev
+
+gajok@DESKTOP-FSRPMRQ MINGW64 ~/TickIt (dev)
+$
+
+
+-u is just the short version of --set-upstream. Both tell Git to set the remote branch as the default for the current branch.
+
+
+
